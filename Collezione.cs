@@ -13,8 +13,7 @@ namespace _016_ClassiAstratte_RelazioniTraClassi {
             _opere = opere;
         }
 
-        public Collezione(string nome, string luogo) : this(nome, luogo, new List<OperaDarte>()) {
-        }
+        public Collezione(string nome, string luogo) : this(nome, luogo, new List<OperaDarte>()) { }
 
         public bool InserisciOpera(OperaDarte opera) {
             if (!_opere.Contains(opera)) {
