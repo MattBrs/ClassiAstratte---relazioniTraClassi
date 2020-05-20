@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Collezione xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Nome>Collezione 1</Nome>
+  <Luogo>vicenza</Luogo>
+  <Opere>
+    <OperaDarte xsi:type="Quadro">
+      <Titolo>quadro 1</Titolo>
+      <Artista>matteo</Artista>
+      <Altezza>12</Altezza>
+      <Larghezza>10</Larghezza>
+    </OperaDarte>
+    <OperaDarte xsi:type="Quadro">
+      <Titolo>quadro 2</Titolo>
+      <Artista>cristian</Artista>
+      <Altezza>12</Altezza>
+      <Larghezza>10</Larghezza>
+    </OperaDarte>
+    <OperaDarte xsi:type="Scultura">
+      <Titolo>scultura 1</Titolo>
+      <Artista>matteo</Artista>
+      <Altezza>10</Altezza>
+      <Larghezza>14</Larghezza>
+      <Profondita>10</Profondita>
+    </OperaDarte>
+    <OperaDarte xsi:type="Scultura">
+      <Titolo>scultura 2</Titolo>
+      <Artista>luca</Artista>
+      <Altezza>4</Altezza>
+      <Larghezza>6</Larghezza>
+      <Profondita>23</Profondita>
+    </OperaDarte>
+  </Opere>
+</Collezione>
